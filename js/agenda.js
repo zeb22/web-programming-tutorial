@@ -28,11 +28,10 @@ function showContacts(contacts) {
         var persoana = contacts[i];
         $('#agenda tbody').append(getRow(persoana));
     }
-
-    $('#agenda  button').click(function () {
-        var id = $(this).data('id');
-       console.info('remove this contact', this, id);
-    });
-
 }
+
+$('#agenda').on('click', 'button', function () {
+    var id = $(this).data('id');
+    console.info('remove this contact', this, id);
+});
 
