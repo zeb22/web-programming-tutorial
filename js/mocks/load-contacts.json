@@ -1,5 +1,7 @@
 [
-  ["Matei Nicolae",   "0756000000", "1"],
-  ["Matei X", "0756000001", "2"],
-  ["Matei Y", "0756000002", "3"]
+  {"position": "1.", "lastname": "Ionescu", "firstname": "Matei", "phone": "0747001"},
+  {"position": "2.", "lastname": "Vasilescu", "firstname": "Andrei", "phone": "0747002"},
+  {"position": "3.", "lastname": "Cotoara", "firstname": "Sebi", "phone": "0747061"},
+  {"position": "4.", "lastname": "Matei", "firstname": "Oana", "phone": "0747062"},
+  {"position": "5.", "lastname": "Caruntu","firstname": "Manu", "phone": "0747065"}
 ]
