@@ -1,0 +1,24 @@
+/* http://www.w3schools.com/css/tryit.asp?filename=trycss_table_color */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #42ef04;
+    color: #ff0005;
+}
+td {
+    color: #0f3ed1;
+}
+.poz {
+    background-color: #42ef04 ;
+}
+.poz:nth-child(even){background-color: #f2f2f2}
