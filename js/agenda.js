@@ -8,7 +8,7 @@ function getRow(person) {
         '<td>' + person.lastname + '</td>'+
         '<td>' + person.firstname + '</td>'+'' +
         '<td>' + person.phone + '</td>'+
-        '<td><button>x</button></td>'+
+        '<td><button data-id="'+ person.id +'">REMOVE</button></td>'+
         '</tr>';
 
     return row;
@@ -25,9 +25,14 @@ console.debug('after ajax');
 
 function showContacts(contacts) {
     for (var i = 0; i < contacts.length; i++) {
-        var person = contacts[i];
-        $('#agenda tbody').append(getRow(person));
+        var persoana = contacts[i];
+        $('#agenda tbody').append(getRow(persoana));
     }
+
+    $('#agenda  button').click(function () {
+        var id = $(this).data('id');
+       console.info('remove this contact', this, id);
+    });
 
 }
 
