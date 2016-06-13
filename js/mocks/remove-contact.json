@@ -1,4 +1,6 @@
 [
-  ["Matei Nicolae",   "0756000000", "1"],
-  ["Matei X", "0756000001", "2"]
+  {"id": 1, "position": "1.", "lastname": "Ionescu", "firstname": "Matei", "phone": "0747001"},
+  {"id": 2, "position": "2.", "lastname": "Vasilescu", "firstname": "Andrei", "phone": "0747002"},
+  {"id": 3, "position": "3.", "lastname": "Cotoara", "firstname": "Sebi", "phone": "0747061"},
+  {"id": 4, "position": "4.", "lastname": "Matei", "firstname": "Oana", "phone": "0747062"}
 ]
